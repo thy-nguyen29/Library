@@ -1,0 +1,27 @@
+{
+  "homepage": "https://thy-nguyen29.github.io/library",
+  "name": "libraryThy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "Thy",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha3",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.4",
+    "express-session": "^1.17.3",
+    "fs-extra": "^11.1.1",
+    "gh-pages": "^5.0.0",
+    "handlebars": "^4.7.7",
+    "mongoose": "^7.0.3",
+    "nodemon": "^1.14.9"
+  },
+  "keywords": [],
+  "description": ""
+}
